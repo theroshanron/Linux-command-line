@@ -124,10 +124,20 @@ done
 
 #For loop to rename files to
 
-Files=$(ls *.txt)
-New="new"
-for file in $Files; do
-    echo "Renaming the $file to new-$file"
-    mv $file $New-$file
+# Files=$(ls *.txt)
+# New="new"
+# for file in $Files; do
+#     echo "Renaming the $file to new-$file"
+#     mv $file $New-$file
+
+# done
+
+#While loop - Read through file line by line
+
+Line=1
+
+while read -r Current_Line; do
+    echo "$Line: $Current_Line"
+    ((Line++))
     
-done
+done < "./new-new-1.txt"
