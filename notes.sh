@@ -6,7 +6,7 @@
 Which $shell
 #history - it shows last 500 commands we used in the terminal
 
-sudo apt-get update # to update the app packages
+sudo apt-get update # to update all the app packages
 
 ifconfig or ipconfig #to check network information like ip address
 iwconfig             # to check wireless configuration
@@ -24,3 +24,9 @@ lspci #devices connected like PCI devices
 
 sudo apt-get install # to install any app package like FileZilla
 sudo apt-get remove  # to uninstall any app package
+
+sudo apt-get upgrade #to upgrade existing app package
+
+sudo shutdown -h now #shutdowm
+sudo shutdown -r now #shutdown and restart
+sudo shutdown -h 10  #shutdown after 10 mins
