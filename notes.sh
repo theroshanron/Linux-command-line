@@ -116,3 +116,18 @@ case "$Answer" in
     ;;
 esac
 
+
+Names="Roshan, Rahul, Bruce, Iron, Stark"
+for name in $Names; do
+    echo "Name: $name"
+done
+
+#For loop to rename files to
+
+Files=$(ls *.txt)
+New="new"
+for file in $Files; do
+    echo "Renaming the $file to new-$file"
+    mv $file $New-$file
+    
+done
