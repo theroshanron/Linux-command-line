@@ -99,5 +99,20 @@ rm test.txt #removes the file if it exists
 
 mkdir test #creats the directory containing
 
+#Case statement
 
+read -p "Are you 21 or over ? Y/N: " Answer
+
+case "$Answer" in
+    [yY] | [yY][eE][sS])
+        echo "You can have a beer: "
+    ;;
+    [nN] | [nN][oO])
+        echo "Sorry, you can't have a beer: "
+    ;; #closes the scenario
+    *) #Closes the case
+        
+        echo "Please enter something here"
+    ;;
+esac
 
