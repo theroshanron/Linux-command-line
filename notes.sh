@@ -1,0 +1,26 @@
+#!/usr/bin/bash
+
+#bash - A command language interpreter to communicate with the computer using terminal
+
+#which - It searches for location of the file and folder
+Which $shell
+#history - it shows last 500 commands we used in the terminal
+
+sudo apt-get update # to update the app packages
+
+ifconfig or ipconfig #to check network information like ip address
+iwconfig             # to check wireless configuration
+
+ping google.com #to check if we are getting response /sending/receiving packets. It's useful in network troubleshoting
+
+uname -a #system information
+blkid    #hardrive information
+top      # command to check process similar to task manager and system monitoring
+#use q to exit
+
+df    #to check avaialble memory in disk and used mempry
+lsusb #devices connected like usb devices
+lspci #devices connected like PCI devices
+
+sudo apt-get install # to install any app package like FileZilla
+sudo apt-get remove  # to uninstall any app package
