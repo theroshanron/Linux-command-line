@@ -2,7 +2,7 @@
 * The command line is more powerful and always be available in the system
 * Server distribution mostly uses CLIs
 * Prompt shows the username and host details 
-* # is sudo and root account similar to administrative account
+* is sudo and root account similar to administrative account
 * $ normal user and can do subset things 
 * Root access is typically restricted to the system administrator
 * ~ represents home directory
