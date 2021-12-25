@@ -141,3 +141,11 @@ while read -r Current_Line; do
     ((Line++))
     
 done < "./new-new-1.txt"
+
+#Functions
+function sayHello() {
+    echo "Hello, "
+    
+}
+
+sayHello
