@@ -35,7 +35,7 @@ follows communication protocol like http,https,ftp
 
 ** Once the above step is done, we can login without the password provided
 
-** scp ~/test.txt roshan@127.0.0.1 :~ It copies file from local to server and
+* scp ~/test.txt roshan@127.0.0.1 :~ It copies file from local to server and
 
-** Default user is root
+* Default user is root
 
