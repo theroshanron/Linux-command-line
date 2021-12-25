@@ -75,7 +75,29 @@ fi
 
 #gt is used for greater than
 #lt is used for less than
+#eq is used for equal
+#ne is used for not equal
+#ge greater than or equal to
+#le less than or equal to
 
 #File conditions
+File="test.txt"
+
+if [ -f "$File" ];
+then
+    echo "$File is a file"
+    
+else
+    echo "$File is not a file"
+fi
+
+
+# -f tests for if the given string is a valid file
+# -e check if it exists
+
+rm test.txt #removes the file if it exists
+
+mkdir test #creats the directory containing
+
 
 
