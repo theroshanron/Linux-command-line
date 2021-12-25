@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-#called as shebang
+#called as shebang used to call bash interpreter
 #bash - A command language interpreter to communicate with the computer using terminal
 
 #which - It searches for location of the file and folder
@@ -34,7 +34,7 @@ sudo shutdown -h 10  #shutdown after 10 mins
 
 #bash is standard terminal for command line language support
 
-#echo command line - to print usage
+#echo command line - to print usage and what's going on
 echo "hello world"
 
 #Variables
@@ -161,7 +161,7 @@ sayGreet "Roshan" "26"
 #Create folder and write to a files
 mkdir Hello
 touch "hello/world.txt"
-echo "Hello World" >> "hello/world.txt"
+echo "Hello World" >> "hello/world.txt" #use >> file name to write the text
 
 echo "Created hello/world.txt"
 
@@ -174,9 +174,59 @@ vi file2.txt #vi is vim editor file
 #How to exit from vim editor
 #press :wq (save and exit)
 #How to configure bash UI?
+#q! (exit)
 
 touch .bashrc #executed for interactive non-login shell
 touch .bash_profile #executed for interactive login shell
 
+clear #clear cleans everything from the terminal
+
+#use up or down key to go to the next or previous command line
+
+# ctrl + c to exit the program
+
+whomami #tells the user of the system
+
+# .sh is the extension of the bash
+
+#./ is used to execute the script
+
+#Chmod and file permissions
+
+# chmod +x filename makes it a executable script for one running
 
 
+#use ctrl+r to search for any previous command use in the command line
+
+#use ctrl+l to clear everything in the command line
+
+#man command shows manual for the command you are about to used. For e.g: man ls -
+
+# How to use git using bash for
+<<com #multiple line comment
+
+git clone - to clone the repository
+git init - initate the git repository
+git status - to check the current status and changes in the files
+git add - add all the new and changed files
+git commit -m " message " - stroing new version with the description of the changes
+git push - pushing the code
+
+com
+
+<<com command --help #help with how to write or use the commands
+com
+
+ls -lah #list all the files and in human readable information
+ls -la #list all the files
+ls #list the visible files
+
+
+# find / -filename #used to locate the files
+
+date #displays date and time
+
+grep to find lines of text that contain a certain string
+
+who # username, date, time and host information
+crontab #lists scheduled tasks
