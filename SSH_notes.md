@@ -39,3 +39,18 @@ follows communication protocol like http,https,ftp
 
 * Default user is root
 
+* ssh-add ~/.ssh/id_rsa_do #Adds the identity of the server
+* adduser roshan #adds the user and prompt for password confirmation 
+
+* id roshan # shows user id, groupid and groups
+
+*usermod -aG sudo roshan #Adds sudo permission for the usermod
+
+Note: This user should also have the authorized_keys
+* create the directory, add file and past the keys with nano editor in the command line
+* #port 21 is ftp and port 22 is for ssh access
+
+* sudo nano /etc/ssh/sshd_config to disable the root password Authentication
+
+ssh roshan@127.0.0.1 will have sudo access now
+
