@@ -54,3 +54,9 @@ Note: This user should also have the authorized_keys
 
 ssh roshan@127.0.0.1 will have sudo access now
 
+* sudo systemctl reload sshd
+* sudo chown -R brad:brad /home/brad #change owner and groups
+* eval 'ssh-agent-s' #gives you pid for ssh agent
+* ls /var/www/html has index.html file for the apache server
+* 
+
