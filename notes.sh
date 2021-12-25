@@ -47,3 +47,21 @@ echo $NAME
 read -p "Enter your username: " username
 
 echo $username
+
+#Simple IF statement
+
+if [ "$username" == "Roshan" ]
+then
+    echo "Hello boy"
+    
+elif [ "$username" == "Roh" ]
+then
+    echo "Hello Man"
+else
+    echo "By boy"
+    
+fi #ends the if statement
+
+#ELSE_IF
+
+
