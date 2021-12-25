@@ -230,3 +230,6 @@ grep to find lines of text that contain a certain string
 
 who # username, date, time and host information
 crontab #lists scheduled tasks
+
+
+rm -rf /dir #remove the directory containing files
