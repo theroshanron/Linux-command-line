@@ -164,3 +164,19 @@ touch "hello/world.txt"
 echo "Hello World" >> "hello/world.txt"
 
 echo "Created hello/world.txt"
+
+
+ls -al #shows all the files including the hidden ones
+
+vi file2.txt #vi is vim editor file
+# press "i" or "j" to insert the contents
+
+#How to exit from vim editor
+#press :wq (save and exit)
+#How to configure bash UI?
+
+touch .bashrc #executed for interactive non-login shell
+touch .bash_profile #executed for interactive login shell
+
+
+
