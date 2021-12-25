@@ -149,3 +149,18 @@ function sayHello() {
 }
 
 sayHello
+
+#Function with parameters  #positional parameter
+function sayGreet() {
+    echo "I am $nameY and $ageY old"
+}
+
+sayGreet "Roshan" "26"
+
+
+#Create folder and write to a files
+mkdir Hello
+touch "hello/world.txt"
+echo "Hello World" >> "hello/world.txt"
+
+echo "Created hello/world.txt"
